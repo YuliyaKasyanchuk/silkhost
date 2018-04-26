@@ -1,0 +1,483 @@
+@import "vars.sass"
+@import "styleguide.sass"
+	
+// HEADER
+
+header
+	.btn-white
+		color: $orange
+		background-color: $white
+		border-radius: 10px
+		padding: 0 4rem
+		margin-right: 2rem
+		+trans
+		&:hover
+			background-color: $blue
+			color: $white
+	.phone
+		color: $white
+		&:hover
+			color: $blue
+
+
+	.call-block
+			background-color: $orange
+			padding: 1rem 0
+			display: none
+			span
+				color: #fff
+			.call-block__info
+				+flex
+				justify-content: space-between
+			.login
+				// width: 50%
+				a
+					color: $white
+					font-size: 1.5rem
+					+trans
+					
+					&:first-child
+						&:after
+							content: "|"
+							color: #fff
+							margin-left: 1rem
+							margin-right: 1rem
+					&:hover
+						color: $blue
+						&:first-child
+							&:after
+								color: #fff
+	.logo-block
+		padding: 2rem 0
+
+		a
+			display: block
+			h1
+				margin-bottom: 0
+				img
+					+flex
+	.header__form
+		padding: 3.5rem 0
+		form
+			color: $blue
+			+flex
+			input.blue
+				margin: 0
+				margin-bottom: 4rem
+				&:focus
+					border: 3px solid $orange
+				&:active
+					border: 3px solid $orange
+			button
+				font-size: 4rem
+				top: 1rem
+	.bg
+		form
+			.index-btn
+				// top: 1.5rem
+			input
+				color: $blue
+
+			input::-webkit-input-placeholder
+				color: $blue
+			input::-moz-placeholder
+				color: $blue
+			button
+				height: 45px
+		.flex
+			justify-content: space-between
+			.header__list
+				width: 100%
+				+flex
+				justify-content: space-between
+		.header__list
+			margin: 0
+			+flex
+			justify-content: space-between
+			li
+				color: $white
+				list-style-type: disc
+				display: inline-block
+				font-size: 2rem
+				margin-right: 1rem
+				&:last-child
+					margin-right: 0
+				.fa-circle
+					margin-right: 0.5rem
+					font-size: 1.5rem
+					color: $orange
+				span
+					color: $white
+		.header__menu
+			margin: 0
+			// +flex
+			width: 100%
+			// justify-content: space-between
+			li
+				display: inline-block
+				width: 31%
+				margin-right: 2rem
+				color: $white
+				&:last-child
+					margin-right: 0
+				a
+					color: $white
+					display: block
+					padding: 0 1rem
+					font-size: 2rem
+					+trans
+					border-radius: 8px
+					border: 1px solid $white
+					&:hover
+						background-color: $white
+						color: $blue
+				.active
+					background-color: $white
+					color: $blue
+					border-radius: 8px
+
+
+	.logo
+		+flex
+		width: 100%
+		justify-content: space-between
+		.header-menu__list
+			display: none
+			li
+				display: inline-block
+				a
+					color: $blue
+					margin-left: 2rem
+					font-size: 2rem
+					&:hover
+						color: $orange
+			li.dropdown
+				position: relative
+				.dropdown-menu
+					position: absolute
+					top: 100%
+					left: 0
+					background-color: $white
+					display: block
+					border: 1px solid #ccc
+					border: 1px solid rgba(0,0,0,.15)
+					border-radius: 4px
+					-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175)
+					box-shadow: 0 6px 12px rgba(0,0,0,.175)
+					padding: 2rem
+					font-size: 1.4rem
+					text-align: left
+					z-index: 5
+					display: none
+					li
+						text-align: left
+						a
+							font-size: 1.4rem
+							margin: 0
+							text-align: left
+
+
+.blue
+	color: #000
+
+
+
+.visuallyhidden
+	opacity: 0
+
+.sm-menu-list
+	-webkit-transition: all 0.5s
+	-o-transition: all 0.5s
+	transition: all 0.5s
+	opacity: 0.8
+	color: $blue
+	display: block
+	background-color: $white
+	padding: 3rem 0
+	animation-direction: normal
+	transition-property: margin-top
+	transition-delay: 0.3s
+	display: none
+	&-active 
+		display: block
+	.header-menu__list
+		li
+			padding: 1rem 0
+			a
+				color: $blue
+				font-size: 3rem
+				&:hover
+					color: $orange
+		li.dropdown
+			position: relative
+			.dropdown-menu
+				position: absolute
+				top: 100%
+				left: 50%
+				text-align: left
+				transform: translateX(-50%)
+				background-color: $white
+				display: block
+				border: 1px solid #ccc
+				border: 1px solid rgba(0,0,0,.15)
+				border-radius: 4px
+				-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175)
+				box-shadow: 0 6px 12px rgba(0,0,0,.175)
+				padding: 2rem
+				font-size: 1.4rem
+				z-index: 5
+				display: none
+				li
+					text-align: left
+					a
+						font-size: 1.4rem
+						margin: 0
+						text-align: left
+	.call-block__info
+		.call
+			.btn-white
+				border: 2px solid $orange
+				&:hover
+					border: 2px solid $blue
+			.phone
+				color: $orange
+				&:hover
+					color: $blue
+		.login
+			margin-top: 2rem
+			a
+				color: $blue
+				&:hover
+					color: $orange
+				&:first-child
+					&:after
+						content: "|"
+						color: $blue
+						margin-left: 1rem
+						margin-right: 1rem
+					&:hover
+						color: $orange
+						&:first-child
+							&:after
+								color: $blue
+
+
+.menu-link
+	z-index: 15
+	display: block
+	width: 50px
+	height: 50px
+	position: relative
+	display: none
+	span
+		content: ''
+		margin-top: -1px
+		transition: all 0.2s
+		display: block
+		height: 2px
+		width: 30px
+		position: absolute
+		left: 50%
+		transform: translateX(-50%)
+		top: 50%
+		background-color: $blue
+		&:before
+			content: ''
+			transition: all 0.2s
+			display: block
+			height: 2px
+			width: 30px
+			position: absolute
+			left: 30%
+			top: 50%
+			margin-top: -10px
+			margin-left: -9px
+			background-color: $blue
+		&:after 
+			content: ''
+			transition: all 0.2s
+			display: block
+			height: 2px
+			width: 30px
+			position: absolute
+			left: 30%
+			top: 50%
+			margin-top: 8px
+			margin-left: -9px
+			background-color: $blue
+	&_active
+		span 
+			background-color: transparent
+			&:before 
+				-webkit-transform: rotate(45deg)
+				-ms-transform: rotate(45deg)
+				-o-transform: rotate(45deg)
+				transform: rotate(45deg)
+				margin-top: 0
+				width: 30px
+			&:after 
+				-webkit-transform: rotate(-45deg)
+				-ms-transform: rotate(-45deg)
+				-o-transform: rotate(-45deg)
+				transform: rotate(-45deg)
+				margin-top: 0
+				width: 30px
+
+
+@media only screen and (min-width: 320px) and(max-width: 600px)
+	header
+		.bg
+			form
+				.index-btn
+					top: 0.5rem
+				input
+					font-size: 2rem
+				button
+					height: 25px
+		.header__form
+			.header__list
+				margin: 2.5rem 0
+				li
+					font-size: 1.5rem
+			form
+				input.blue
+					margin: 0rem
+				.input
+					margin: 0
+				button
+					top: 2rem
+			.header__menu
+				li
+					width: 30%
+					a
+						font-size: 1rem
+				
+			.flex
+				flex-direction: column
+				justify-content: space-between
+	.menu-link
+		display: block
+@media only screen and (min-width: 601px) and(max-width: 640px)
+	header
+		.header__form
+			.header__menu
+				width: 100%
+				li
+				
+			.header__list
+			
+			form
+				
+				button
+					top: 1.5rem
+		.bg
+			form
+				button
+					top: 0
+@media only screen and (min-width: 601px) and(max-width: 991px)
+	header
+		.header__form
+			.header__menu
+				width: 100%
+				li
+					width: 32%
+					margin-right: 1rem
+					&:last-child
+					a
+						font-size: 1.3rem
+			.header__list
+				margin: 2.5rem 0
+			form
+				input.blue
+					margin: 0rem
+				button
+					top: 1rem
+				
+			.flex
+				flex-direction: column
+				justify-content: space-between
+		.bg
+			form
+				button
+					top: 0
+		
+@media only screen and (min-width: 992px) and (max-width: 1170px)
+	.menu-link
+		display: none
+	header
+		.logo-block
+			.menu-link
+				display: none
+		.call-block
+			display: block
+		.logo
+			.header-menu__list
+				display: block
+		.header__form
+			padding: 1rem 0
+			form
+				input.blue
+					margin: 0
+			.flex
+				margin-top: 1rem
+				.header__list
+					width: 40%
+					+flex
+					justify-content: space-between
+			.header__list
+				li
+					font-size: 1.5rem
+			.header__menu
+				width: 50%
+				li
+					width: 32%
+					margin-right: 1rem
+					&:last-child
+					a
+						font-size: 1.3rem
+		.bg
+			form
+				button
+					height: 45px
+					top: 0rem
+	
+@media only screen and (min-width: 1171px)
+	header
+		.logo-block
+			.menu-link
+				display: none
+		.logo
+			.header-menu__list
+				display: block
+		.call-block
+			display: block
+		.header__form
+			padding: 1rem 0
+			form
+				input.blue
+					margin: 0
+				button
+					top: 0.5rem
+
+			.flex
+				margin-top: 1rem
+				.header__list
+					width: 45%
+					+flex
+					justify-content: space-between
+			.header__list
+				width: 45%
+				li
+					font-size: 1.5rem
+			.header__menu
+				width: 50%
+				li
+					width: 32%
+					margin-right: 1rem
+					&:last-child
+						margin-right: 0
+					a
+						font-size: 1.3rem
+		.bg
+			form
+				margin: 0

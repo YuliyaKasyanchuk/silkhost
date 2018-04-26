@@ -1,0 +1,1546 @@
+@import "vars.sass"
+@import "styleguide.sass"
+
+h3
+	color: $blue
+	+flex
+
+.button
+	background-color: $white
+	color: $dark-blue
+	font-size: 3rem
+	font-weight: 700
+	&:hover
+		background-color: $orange
+		color: $white
+.button-gray
+	background-color: $gray
+	color: $white
+	font-size: 3rem
+	font-weight: 700
+	padding: 1.5rem 4rem
+	&:hover
+		background-color: $gray-hover
+.button-blue
+	background-color: $blue
+	color: $white
+	font-size: 3rem
+	font-weight: 700
+	padding: 1.5rem 4rem
+	&:hover
+		background-color: $blue-hover
+.button-orange
+	background-color: $orange
+	color: $white
+	font-size: 3rem
+	font-weight: 700
+	padding: 1.5rem 4rem
+	&:hover
+		background-color: $orange-hover
+.button-pink
+	background-color: $pink
+	color: $white
+	font-size: 3rem
+	padding: 1.5rem 4rem
+	font-weight: 700
+	&:hover
+		background-color: $pink-hover
+.button-sky-blue
+	background-color: $sky-blue
+	color: $white
+	font-size: 3rem
+	padding: 1.5rem 4rem
+	font-weight: 700
+	&:hover
+		background-color: $sky-blue-hover
+.button-green
+	background-color: $green
+	color: $white
+	font-size: 3rem
+	padding: 1.5rem 4rem
+	font-weight: 700
+	&:hover
+		background-color: $green-hover
+.button-gray-blue
+	background-color: $gray-blue
+	color: $white
+	font-size: 3rem
+	padding: 1.5rem 4rem
+	font-weight: 700
+	&:hover
+		background-color: $gray-blue-hover
+.button-yellow
+	background-color: $yellow
+	color: $white
+	font-size: 3rem
+	padding: 1.5rem 4rem
+	font-weight: 700
+	&:hover
+		background-color: $yellow-hover
+.margin_0
+	margin: 0
+
+#domains
+	padding: 8.75rem 0
+	background-color: $white
+#registration
+	padding: 8.75rem 0
+	background-color: $light-blue
+
+h2
+	color: $blue
+	font-size: 6rem
+	font-weight: 700
+	line-height: normal
+	text-align: center
+	.icon
+		float: left
+		margin-right: 2rem
+h3
+	margin: 3rem 0
+.bold
+	font-weight: 700
+.info
+	color: $blue
+	font-size: 2.5rem
+	margin: 2.5rem 0
+.description
+	color: $blue
+	font-size: 3rem
+	text-align: left
+	font-weight: 400
+	// margin: 5.25rem 0
+.products-description
+	color: $white
+	font-size: 3rem
+	text-align: center
+	margin: 4rem 0
+	min-height: 96px
+.plans-title
+	font-size: 3.75rem
+	font-weight: 600
+	text-align: center
+.title
+	color: $white
+	font-size: 4.5rem
+	font-weight: 600
+.colored
+	color: $orange
+.blue
+	color: $blue
+.icon
+	margin-bottom: 2.5rem
+.icon-right
+	margin-left: 3rem
+.gray
+	color: $gray
+	.mark
+		background-color: $gray
+.green
+	color: $green
+	.mark
+		background-color: $green
+.blue
+	color: $blue
+	position: relative
+	.mark
+		background-color: $blue
+.yellow
+	color: $yellow
+	position: relative
+	.mark
+		background-color: $yellow
+.up-block
+	&:before
+		content: 'BestSeller'
+		position: absolute
+		top: -6%
+		left: 50%
+		transform: translateX(-50%)
+		display: block
+		background-color: $blue
+		width: fit-content
+		padding: 0 1rem
+		margin: 0 auto
+		display: block
+		color: $white
+
+.sky-blue
+	color: $sky-blue
+	.mark
+		background-color: $sky-blue	
+.orange
+	color: $orange
+	.mark
+		background-color: $orange
+.pink
+	color: $pink
+	.mark
+		background-color: $pink
+.gray-blue
+	color: $sky-blue
+	.mark
+		background-color: $gray-blue
+.icon-left
+	float: left
+
+.mark
+	font-size: 3rem
+	color: $white
+	width: 100%
+	margin-top: 1rem
+#owl
+	padding: 0
+	display: none
+	h5
+		color: $white
+	#owl
+		padding: 0
+		.owl-carousel
+	.owl-dots
+		position: absolute
+		bottom: 5rem
+		left: 14rem
+		position: absolute
+		cursor: pointer
+		.owl-dot.active
+			background-color: $blue
+		.owl-dot
+			background-color: #f8ca83
+			width: 50px
+			height: 5px
+			border-radius: 10px
+			display: inline-block
+			margin: 0 1rem
+			border-radius: 5px
+	.owl-carousel-item
+		height: 550px
+		width: 100%
+		+bg
+		background-position: 0 0
+		.central
+			+flex
+			flex-direction: column
+			color: $white
+			align-items: flex-start
+			margin-top: 3rem
+			h5
+				width: 0
+				height: 0
+				color: $blue
+			.heading
+				font-size: 6rem
+				line-height: 1 
+				text-align: left
+				width: 40%
+			p
+				font-size: 3rem
+				padding: 1rem 0
+			.container
+				padding: 0
+			.wide
+				width: 23%
+			ul
+				// width: 70%
+				// +flex
+				// justify-content: flex-start
+				// padding: 0
+				// margin: 0
+
+				li
+					text-align: left
+					font-size: 2.5rem
+					font-weight: 600
+					.fa
+						color: $orange
+						margin-right: 1rem
+						font-size: 1.5rem
+						vertical-align: middle
+						line-height: 0
+#plans
+	background-color: $light-blue
+	.description
+		margin: 5.25rem 0
+	
+	p.margin_2
+		margin: 2rem 0
+		overflow: hidden
+	.bold
+		font-size: 4.5rem
+.plans-item
+	background-color: #fff
+	padding: 4rem 0
+	+trans
+	box-sizing: border-box
+	box-shadow: 8.601px 22.406px 16px 0px rgba(11, 11, 11, 0.1)
+	&:hover
+		box-shadow: 4.3px 11.203px 16px 0px rgba(11, 11, 11, 0.1)
+	
+#domains
+	padding: 10rem 0
+	background-color: $white
+	.ellipse
+		margin: 0 auto
+		width: 100%
+	.domain-name
+		color: $dark-blue
+		font-size: 3.25rem
+		text-align: left
+	.domain-price
+		display: block
+		color: $orange
+		font-size: 3.25rem
+		text-align: left
+		font-weight: bold
+		sup
+			font-weight: normal		
+#registration
+	padding: 10rem 0 0
+	background-color: $light-blue
+	.description
+		margin: 8.75rem 0
+#products
+	padding: 10rem 0
+	background-color: $dark-blue
+	h5
+		color: $blue
+		width: 0
+		height: 0
+	.product-item
+		// margin-bottom: 10rem
+		img
+			min-height: 70px
+		
+
+#questions
+	padding: 10rem 0
+	.icon
+		margin-bottom: 0
+	.title
+		text-align: left
+		margin-top: 7.5rem
+		margin-bottom: 2rem
+.footer__support
+		background-color: $orange
+		padding: 10rem 0
+		.support-info
+			color: $white
+			font-size: 4.5rem
+			font-weight: 700
+			span
+				color: #000
+			a
+				color: #000
+.plans-item
+		margin: 4.5rem 0
+		// width: 50%
+  //   	margin: 4.5rem auto
+#plans
+	padding: 8.75rem 0
+	background-color: $light-blue
+	.description
+		line-height: initial
+	
+	.margin_0
+		margin: 0
+	.check-block
+		width: 100%
+		+flex
+		justify-content: flex-start
+		align-items: flex-start
+		.description
+			margin: 1rem 0
+		.check
+			padding-top: 2rem
+	.check
+		vertical-align: sub
+		margin-right: 2rem
+		float: left
+#diferences
+	background-color: $white
+	padding: 8.75rem 0
+	h2
+		text-align: center
+		display: block
+	.start
+		h3
+			margin: 0
+			margin-bottom: 3rem
+			// min-height: 150px
+
+#domain-registration
+	background-color: $light-blue
+	padding: 8.75rem 0
+	h2
+		margin-bottom: 3rem
+	h3
+		+flex
+		margin: 7rem 0 3rem 0
+		img
+			margin-right: 2rem
+
+#domain-type
+	padding: 8.75rem 0
+	text-align: left
+	h2
+		margin-bottom: 3rem
+	.bold
+		color: $blue
+		font-size: 3rem
+		text-align: left
+	.domain-type__block
+		margin-top: 7rem
+		img
+			margin-bottom: 3rem
+			min-height: 128px
+#check-domain
+	background-color: $light-blue
+	padding: 8.75rem 0
+	form
+		position: relative
+		button
+			background-color: transparent
+			position: absolute
+			top: 5.5rem
+			right: 2rem
+
+				
+#domain-protection
+	padding: 8.75rem 0
+	h2
+		margin-bottom: 3rem
+	h3
+		text-align: left
+		img
+			margin-right: 3rem
+form
+	position: relative
+	input
+		background-color: $white
+		color: $light-gray
+		outline: none
+		border: 1px solid $blue
+		border-radius: 10px
+		padding: 1.5rem 2rem
+		line-height: 1.2
+		margin: 4rem 0
+		outline: none
+		font-size: 3.75rem
+		width: 100%
+		&:active
+			border: 1px solid $orange
+			color: $blue
+		&:focus
+			border: 1px solid $orange
+			color: $blue
+	input::-webkit-input-placeholder
+		color: $light-gray
+   
+	input[type="search"]::-moz-placeholder
+		color: $light-gray
+   
+	button
+		background-color: transparent
+		position: absolute
+		top: 0.5rem
+		right: 2rem
+		padding: 0
+		img
+			&:hover
+				opacity: 0.7
+
+
+footer
+	width: 100%
+	.footer__partners
+		vertical-align: middle
+		li
+			display: inline-block
+			vertical-align: middle
+			margin: 1rem 0
+	.footer__menu
+		background-color: $dark-blue
+		color: $white
+		text-align: left
+		.footer__list
+			font-size: 3.75rem
+			line-height: 7.5rem
+			margin: 0
+			font-weight: 600
+			padding: 3rem 0
+			li
+				line-height: 7.5rem
+			.footer__item
+				color: $white
+				font-size: 2.5rem
+				line-height: 2.5rem
+				font-weight: 400
+				&:hover
+					color: $orange
+	.footer__payments
+		padding: 0
+		margin: 0
+		li
+			display: inline-block
+			vertical-align: middle
+			margin: 0rem 0.2rem
+	.footer_copyright
+		background-color: $dark-blue
+		padding: 2rem
+		color: $white
+		text-align: left
+		.flex
+			justify-content: space-between
+		.social-links
+			margin: 0
+			line-height: 0
+			li
+				text-align: right
+				vertical-align: middle
+				display: inline-block
+				a
+					color: $white
+					margin: 0 0.5rem
+					+trans
+					line-height: 0
+					display: block
+					&:hover
+						background-color: $orange
+.btn
+	font-size: 3rem
+	font-weight: 700
+	color: $blue
+	border: 3px dashed $blue
+	border-radius: 10px
+	padding: 0.5rem 12rem
+	&:hover
+		border: 3px dashed $orange
+		color: $orange
+#price-list
+	background-color: $light-blue
+	padding: 8.75rem 0
+	padding-bottom: 0
+
+	.form-block
+		background-color: $blue
+		margin-top: 2rem
+		padding: 3rem
+		+flex
+		form
+			width: 100%
+			margin-bottom: 3rem
+			
+			input
+				margin: 0
+				border: 3px solid $white
+				margin-right: 5rem
+				&:active
+					border: 3px solid $orange
+				&:focus
+					border: 3px solid $orange
+			button
+				top: 2rem
+		.description
+			color: $white
+			width: 90%
+	table
+		text-align: left
+		color: $blue
+		margin: 8.75rem auto
+		tr
+			padding: 2rem 0
+			th
+				font-size: 2.5rem
+				font-weight: 600
+				border-bottom: 1px solid $orange
+				margin-bottom: 7rem
+				padding: 2rem 2rem 2rem 0
+				.fa
+					font-size: 1.2rem
+					vertical-align: middle
+					color: $blue
+					&:hover
+						color: $orange
+					&:visited
+						color: $orange
+			td
+				padding: 2rem 2rem 2rem 0
+				font-size: 2.25rem
+				border-bottom: 1px solid $light-gray
+		.sale::after
+			content: 'SALE'
+			display: inline-block
+			font-size: 1.25rem
+			background-color: $orange
+			border-radius: 10px
+			line-height: normal
+			width: fit-content
+			padding: 0 1.5rem
+			color: $white
+			margin-left: 1.5rem
+			vertical-align: middle
+		.with-padding
+			padding-top: 7rem
+		.no-border
+			border-bottom: none
+		.price
+			color: $orange
+	
+#terms
+	background-color: $white
+	width: 100%
+	height: 100%
+	background: linear-gradient(to bottom, $light-blue 50%, $white 50%);
+	padding: 0
+	.plans-item
+		text-align: center
+		width: 100%
+		padding: 8rem 6rem
+		.title
+			color: $blue
+			margin-bottom: 2rem
+			font-weight: 700
+		.domain-price
+			color: $orange
+		.description
+			text-align: center
+	h5
+		color: $white
+#price-pakistan
+	padding: 8.75rem 0
+	padding-top: 0
+	background-color: $white
+	+flex
+	h2
+		margin-bottom: 3rem
+	.description
+		text-align: center
+	img
+		margin-top: 8rem
+	.top-bottom
+		+flex
+		-webkit-flex-direction: column
+		flex-direction: column
+	.search-domain
+		background-color: $blue
+		padding: 0 3rem
+		margin-top: 5rem
+		.form-block
+			input
+				border: 3px solid $white
+				&:active
+					border: 3px solid $orange
+				&:focus
+					border: 3px solid $orange
+			button
+				top: 6rem
+#sell
+	padding: 8.75rem 0
+	vertical-align: middle
+	.is
+		display: block
+	h2
+		text-align: left
+		margin-bottom: 4rem
+	.is-not
+		img
+			width: 40%
+			display: inline-block
+
+		h2
+			width: 40%
+			margin-left: 3rem
+			margin-bottom: 0
+			display: inline-block
+		.flex
+			margin-bottom: 1rem
+			+flex
+			justify-content: flex-start
+
+.flex
+	+flex
+
+#evaluate
+	padding: 8.75rem 0
+	background-color: $light-blue
+	.icons
+		width: 100%
+	h2
+		+flex
+		align-items: center
+		justify-content: flex-start
+		text-align: left
+		font-size: 3.6rem
+		margin-bottom: 2rem
+		.icon
+			margin-bottom: 0
+	.plans-title
+		color: $blue
+		font-weight: normal
+	ul
+		+flex
+		justify-content: space-between
+		align-items: flex-start
+		li
+			width: 17%
+			vertical-align: top
+			margin-right: 0
+			display: inline-block
+			list-style-type: disc
+			color: $orange
+			font-size: 1.8rem
+			text-align: left
+			.fa
+				font-size: 0.6rem
+				margin-right: 1rem
+				vertical-align: middle
+			span
+				color: $blue
+	.plans-title
+			font-size: 3rem
+			text-align: left
+#acquisitions
+	padding: 8.75rem 0
+	.is-not
+		img
+			width: 30%
+			display: inline-block
+
+		h2
+			width: 40%
+			margin-left: 3rem
+			margin-bottom: 0
+			text-align: left
+			display: inline-block
+		.flex
+			margin-bottom: 1rem
+			+flex
+			justify-content: flex-start
+#contacts-form
+	padding: 8.75rem 0
+	background-color: $light-blue
+	.icons-is
+		display: none
+	h2
+		+flex
+		margin-bottom: 3rem
+		img
+			margin-right: 2rem
+	form
+		text-align: left
+		margin-top: 3rem
+		label
+			font-size: 3rem
+			color: $blue
+		input
+			margin: 1rem 0 4rem 0
+			border-radius: 5px
+			font-size: 3rem
+		textarea::-webkit-input-placeholder
+			color: $light-gray
+		textarea::-moz-placeholder
+			color: $light-gray
+		textarea
+			display: block
+			width: 100%
+			border: 1px solid $blue
+			margin: 1rem 0 4rem 0
+			color: $light-gray
+			font-size: 3rem
+			border-radius: 5px
+			padding: 2rem
+			padding-bottom: 20rem
+			+font
+			&:active
+				border: 1px solid $orange
+				color: $blue
+			&:focus
+				border: 1px solid $orange
+				color: $blue
+		button
+			position: relative
+			font-size: 3rem
+			color: $white
+			background-color: $blue
+			width: auto
+			text-align: left
+			top: 0
+			left: 0
+			padding: 1rem 7rem
+			text-align: left
+			margin: 0
+			border-radius: 5px
+			&:hover
+				background-color: $orange
+.center
+	text-align: center
+header
+	input
+		color: $blue
+@media only screen and (min-width: 320px) and (max-width: 492px)
+	#domains
+		p.domain-name
+			font-size: 2.5rem
+		p.domain-price
+			font-size: 2.5rem
+	.button
+		padding: 1rem 2rem
+		font-size: 2.5rem
+	#plans
+		.bold
+			font-size: 3.5rem
+		.check-block
+			width: 100%
+			+flex
+			justify-content: flex-start
+			align-items: flex-start
+			.check
+				padding-top: 1.5rem
+	.footer__support
+		p.support-info
+			font-size: 3rem
+
+	.container
+		padding: 0 15px
+	.icon
+		display: none
+	footer
+		.footer__menu
+			.footer__list
+				font-size: 3.75rem
+				font-weight: 600
+		.footer__payments
+			padding: 4.5rem 0
+		.footer_copyright
+			font-size: 2rem
+			text-align: left
+			.copyright
+				width: 40%
+
+	#domain-type
+		.domain-type__block
+			margin: 2rem 0
+			img
+				height: 88px
+				min-height: 0
+				text-align: left
+	#price-pakistan
+		.search-domain
+			display: none
+	#sell
+		.is
+			display: none
+		.is-not
+			img
+				display: none
+			h2
+				width: 100%
+			
+	#acquisitions
+		.is
+			display: none
+		.is-not
+			img
+				display: none
+			h2
+				width: 100%
+	#evaluate
+		ul
+			display: block
+			text-align: left
+
+			li
+				width: 100%
+				margin-bottom: 2rem
+				font-size: 3rem
+				.fa
+					margin-right: 1rem
+		h2
+			justify-content: center
+			text-align: center
+		.plans-title
+			text-align: center
+		.plans-item
+			width: 60%
+			margin: 4.5rem auto
+	#diferences
+		.diferences-items
+			&__item
+				margin-top: 6.875rem
+	#price-list
+		.form-block
+			flex-direction: column
+	#contacts-form
+		form
+			button
+				width: 100%
+				margin: 0 auto
+				text-align: center
+	
+	
+@media only screen and (min-width: 493px) and (max-width: 640px)
+	#price-list
+		.form-block
+			flex-direction: column
+	// ah2
+	// 	color: $blue
+	// 	font-size: 6rem
+	// 	font-weight: 700
+	// 	text-align: center
+	// 	&:hover
+	// 		color: $orange
+	.icon
+		display: none
+	#plans
+		background-color: $light-blue
+		.check-box
+			display: inline-block
+			width: 50%
+	.plans-item
+		background-color: #fff
+		padding: 4rem 0
+		width: 60%
+		margin: 4.5rem auto
+		+trans
+		box-sizing: border-box
+		box-shadow: 8.601px 22.406px 16px 0px rgba(11, 11, 11, 0.1)
+		&:hover
+			box-shadow: 4.3px 11.203px 16px 0px rgba(11, 11, 11, 0.1)
+
+
+		
+	#domains
+		background-color: $white
+		.domain-name
+			font-size: 3.25rem
+		.domain-price
+			font-size: 3.25rem		
+	#registration
+		background-color: $light-blue
+		.description
+			margin: 8.75rem 0
+		img
+			display: none
+	#products
+		background-color: $dark-blue
+		
+		.product-item
+			margin-bottom: 10rem
+	#diferences
+		.diferences-items
+			&__item
+				margin-top: 6.875rem
+	#questions
+		.icon
+			margin-bottom: 0
+		.title
+			text-align: left
+			margin-top: 5rem
+			margin-bottom: 2rem
+	.footer__support
+		background-color: $orange
+		padding: 10rem 0
+		.support-info
+			color: $white
+			font-size: 4.5rem
+			span
+				color: #000
+			a
+				color: #000
+	section
+		padding: 7rem 0
+	footer
+		.footer__partners
+			vertical-align: middle
+			li
+				display: inline-block
+				vertical-align: middle
+				margin: 1rem 0
+		.footer__menu
+			background-color: $dark-blue
+			color: $white
+			text-align: left
+			padding: 5rem 0
+			.footer__list
+				font-size: 3.75rem
+				font-weight: 600
+				line-height: 7.5rem
+				li
+					line-height: 7.5rem
+					.footer__item
+						color: $white
+						font-size: 2.5rem
+						line-height: 2.5rem
+						font-weight: 400
+		.footer__payments
+			padding: 4.5rem 0
+		.footer_copyright
+			font-size: 2rem
+			text-align: left
+			.copyright
+				width: 40%
+
+	#price-pakistan
+		.search-domain
+			display: none
+	#sell
+		.is
+			display: none
+		
+	#acquisitions
+		.is
+			display: none
+	#evaluate
+		ul
+			display: block
+			text-align: left
+
+			li
+				width: 100%
+				font-size: 3rem
+				margin-bottom: 2rem
+				.fa
+					margin-right: 1rem
+		h2
+			justify-content: center
+			text-align: center
+		.plans-title
+			text-align: center
+@media only screen and (min-width: 630px) and (max-width: 760px)
+	.plans-item
+		width: 60%
+		margin: 4.5rem auto
+@media only screen and (min-width: 641px) and (max-width: 991px)
+	#price-list
+		.form-block
+			flex-direction: column
+	h2
+		margin-bottom: 8rem
+	.icon
+		display: none
+	#price-list
+		h2
+			margin-bottom: 5.25rem
+	#domains
+		.ellipse
+			width: 80%
+	#registration
+		h2.colored
+			width: 60%
+			display: block
+			margin: 0 auto
+			margin-top: 8rem
+			margin-bottom: 8rem
+		h2
+			margin-bottom: 8rem
+	#diferences
+		.diferences-items
+			&__item
+				margin-top: 6.875rem
+	#questions
+		h2
+			margin-bottom: 0
+	#check-domain
+		h2
+			margin-bottom: 0
+	#sell
+		.is
+			display: none
+		.is-not
+			.flex
+				justify-content: center
+	#acquisitions
+		.is
+			display: none
+		.is-not
+			.flex
+				justify-content: center
+	#evaluate
+		ul
+			display: block
+			text-align: left
+
+			li
+				width: 48%
+				margin-right: 1rem
+				font-size: 3rem
+				margin-bottom: 2rem
+				.fa
+					margin-right: 1rem
+		h2
+			justify-content: center
+		.plans-title
+			text-align: center
+	#products
+		.product-item
+			margin-bottom: 10rem
+	#price-pakistan
+		.search-domain
+			display: none
+	form
+		input
+			font-size: 2.4rem
+@media only screen and (min-width: 992px) and (max-width: 1170px)
+
+	#products
+		.product-item
+			.icons
+				min-height: 78px
+				margin-bottom: 3rem
+			.title
+				min-height: 115px
+
+
+	h2
+		+flex
+		justify-content: flex-start
+	#diferences
+		h2
+			+flex
+			margin-bottom: 2rem 
+			.icon
+				float: none
+				margin-bottom: 0
+		h3
+			overflow: hidden
+			+flex
+			min-height: 150px
+			margin: 0
+			margin-bottom: 2rem
+			justify-content: flex-start
+			align-items: flex-start
+		.description
+			margin: 0
+		.diferences-items
+			&__item
+				margin-top: 9rem
+			.icon
+				display: none
+			&__item
+				overflow: hidden
+				// h3
+				// 	min-height: 150px
+		.start
+			+flex
+			justify-content: flex-start
+			align-items: flex-start
+			min-height: 470px
+			&:last-child
+				min-height: 0
+			.icon
+				margin-bottom: 0
+				margin-right: 2rem
+				vertical-align: top
+				margin-top: 5rem
+	footer
+		.footer__menu
+			.footer__list
+				line-height: 1.2
+		.footer_copyright
+			
+	#terms
+		padding: 0 !important
+		.plans-item
+			text-align: left
+			width: 100%
+			padding: 5rem 6rem
+			.description
+				text-align: left
+	#price-pakistan
+		padding-top: 0 !important
+		h2
+			text-align: right
+		.description
+			text-align: left
+		img
+			margin-top: 0
+			width: 100%
+
+		.top-bottom
+			+flex
+			.flex-item-1
+				-webkit-order: 1
+				order: 1
+			.flex-item-2
+				-webkit-order: 0
+				order: 0
+	#sell
+		h2
+			margin-bottom: 2rem
+		.is-not
+			display: none
+
+	#acquisitions
+		h2
+			margin-bottom: 2rem
+			text-align: left
+		.is-not
+			display: none
+	#contacts-form
+			.icons-is
+				display: block
+				width: 80%
+				margin-top: 2rem
+			h2
+				justify-content: flex-start
+				img
+					display: none
+	#evaluate
+		ul
+			li
+				width: 17%
+				display: inline-block
+				list-style-type: disc
+				color: $orange
+				margin-right: 1rem
+				font-size: 1.8rem
+				text-align: left
+				.fa
+					font-size: 0.6rem
+					line-height: 0.6rem
+					margin-right: 2rem
+				span
+					color: $blue
+		.plans-title
+			font-size: 3rem
+	#owl
+		padding: 0 !important
+		display: block
+	form
+		input
+			font-size: 2.4rem
+	.form-block
+		form
+			margin: 0
+			margin-right: 5rem
+	#price-list
+		.form-block
+			form
+				margin: 0
+				margin-right: 5rem
+	#contacts-form
+		form
+			.contacts-info
+				display: block
+				width: 80%
+				+flex
+				margin-bottom: 2rem
+				justify-content: space-between
+				align-items: center
+				label
+					width: 30%
+					margin-right: 5rem
+					font-size: 2.4rem
+				input
+					width: 70%
+					margin: 0
+					font-size: 2.4rem
+				.text
+					width: 70%
+					textarea
+						width: 100%
+						font-size: 2.4rem
+						margin: 0
+						margin-bottom: 2rem
+				button
+					font-size: 2.4rem
+
+@media only screen and (min-width: 1171px)
+
+	form
+		input
+			font-size: 2.4rem
+	.description
+		font-size: 1.8rem
+	.title
+		font-size: 3rem
+	h2
+		font-size: 4.8rem
+		+flex
+		justify-content: flex-start
+		// min-height: 150px
+		text-align: left
+		margin-bottom: 4rem
+	h3
+		text-align: left
+		font-size: 3.6rem
+	.with-wrap
+		width: 52%
+		margin-top: 0
+	.vps
+		margin-top: 6rem
+		text-align: left
+
+	#domains
+		.domain-price
+			font-size: 3rem
+		.domain-name
+			font-size: 3rem
+	h2.icon
+		margin-right: 5rem
+	#registration
+		padding: 10rem 0
+		.colored
+			width: 81%
+			display: block
+		.description
+			margin-top: 2rem
+	.products-description
+		font-size: 1.6rem
+		margin: 2rem 0 4rem 0
+
+	// .icons
+	// 	height: 68px
+	.title
+		margin-top: 2rem
+	h3
+		font-size: 3.6rem
+	.footer__support
+		padding: 1rem 0
+		.support-info
+			font-size: 2.4rem
+			display: inline-block
+			margin-left: 0.5rem
+	.info
+		font-size: 2rem
+	#plans
+		.bold
+			font-size: 3.6rem
+		.plans-title
+			font-size: 3rem
+		.plans-item__block
+			margin-top: 0
+		h2
+			margin-bottom: 0
+		.half
+			width: 50%
+		.center
+			text-align: center
+		.icon
+			text-align: left
+		.check-block
+			.check
+				padding-top: 1rem	
+	#questions
+		h2
+			margin-bottom: 0
+		.title
+			margin-top: 3rem
+	.button
+		font-size: 2.4rem
+		padding: 0.5rem 2rem
+	#diferences
+
+		h2
+			+flex
+			margin-bottom: 3rem
+			.icon
+				float: none
+				margin-bottom: 0
+		h3
+			overflow: hidden
+			+flex
+		.description
+			margin: 0
+		.diferences-items
+			margin-top: 4rem
+			&__item
+				overflow: hidden
+				min-height: 150px
+				margin-top: 6rem
+		.start
+			+flex
+			justify-content: flex-start
+			align-items: flex-start
+			min-height: 470px
+			&:last-child
+				min-height: 0
+			&:first-child
+				.icon
+					margin-top: 8rem
+			h3
+				min-height: 150px
+			.icon
+				margin-bottom: 0
+				margin-right: 2rem
+				vertical-align: top
+				margin-top: 9.5rem
+
+	footer
+		.footer__partners
+			display: none
+		.footer__menu
+			.footer__list
+				line-height: 3.7rem
+				li
+					line-height: 3.7rem
+				.footer__item
+					font-size: 2rem
+					line-height: 2rem
+		.footer_copyright
+	.footer
+		footer
+			.footer__partners
+				display: inline-block
+	#domain-registration
+		h3
+			justify-content: flex-start
+	#domain-protection
+		.small
+			font-size: 3rem
+			font-weight: normal
+	section
+		padding: 7rem 0 !important
+	#terms
+		padding: 0 !important
+		.plans-item
+			text-align: left
+			width: 100%
+			padding: 5rem 6rem
+			.description
+				text-align: left
+	#price-list
+		padding-bottom: 0 !important
+		.form-block
+			form
+				margin: 0
+				margin-right: 5rem
+		table
+			tr
+				th
+					padding: 2rem 8rem 2rem 0
+
+				td
+					padding: 2rem 16rem 2rem 0
+
+	#price-pakistan
+		padding-top: 0 !important
+		h2
+			text-align: right
+		.description
+			text-align: left
+		img
+			margin-top: 0
+			width: 100%
+
+		.top-bottom
+			+flex
+			.flex-item-1
+				-webkit-order: 1
+				order: 1
+			.flex-item-2
+				-webkit-order: 0
+				order: 0
+	#sell
+		h2
+			margin-bottom: 2rem
+		.is-not
+			display: none
+	#acquisitions
+		h2
+			margin-bottom: 2rem
+			text-align: left
+		.is-not
+			display: none
+	#contacts-form
+		.icons-is
+			display: block
+			width: 80%
+			margin-top: 2rem
+		h2
+			text-align: left
+			justify-content: flex-start
+			img
+				display: none
+	#owl
+		padding: 0 !important
+		display: block
+	#contacts-form
+		form
+			.contacts-info
+				display: block
+				width: 80%
+				+flex
+				margin-bottom: 2rem
+				justify-content: space-between
+				align-items: center
+				label
+					width: 30%
+					margin-right: 5rem
+					font-size: 2.4rem
+				input
+					width: 70%
+					margin: 0
+					font-size: 2.4rem
+				.text
+					width: 70%
+					textarea
+						width: 100%
+						margin: 0
+						font-size: 2.4rem
+						margin-bottom: 2rem
+				button
+					font-size: 2.4rem
+@media only screen and (min-width: 320px) and(max-width: 600px)
+
+	#price-list
+		
+		table
+			text-align: left
+			color: $blue
+			margin: 8.75rem auto
+			tr
+				padding: 2rem 0
+				th
+					font-size: 1.8rem
+					font-weight: 600
+					border-bottom: 1px solid $orange
+					margin-bottom: 7rem
+					padding: 2rem 0.5rem 2rem 0
+					.fa
+						font-size: 1.2rem
+						vertical-align: middle
+						color: $blue
+						&:hover
+							color: $orange
+						&:visited
+							color: $orange
+				
+				td
+					padding: 2rem 0.5rem 2rem 0
+					font-size: 1.6rem
+					border-bottom: 1px solid $light-gray
+			.sale::after
+				content: 'SALE'
+				display: inline-block
+				font-size: 1.25rem
+				background-color: $orange
+				border-radius: 10px
+				line-height: normal
+				width: fit-content
+				padding: 0 2rem
+				color: $white
+				margin-left: 1.5rem
+				vertical-align: middle
+	header
+		.header__form
+			.header__list
+				li
+					font-size: 1.5rem
+			
+@media only screen and (min-width: 1171px) and(max-width: 1199px)
+	#price-list
+		padding-bottom: 0 !important
+		.form-block
+			form
+				margin: 0
+				margin-right: 5rem
+				button
+					top: 1.5rem
+		table
+			tr
+				th
+					padding: 2rem 7rem 2rem 0
+
+				td
+					padding: 2rem 7rem 2rem 0

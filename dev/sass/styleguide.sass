@@ -1,0 +1,136 @@
+@import "vars.sass"
+
+//General
+
+html
+	font-size: 75%
+	@include respond-to(prelarge)
+		font-size: 62.5%
+	@include respond-to(desktop)
+		font-size: 50%
+	@include respond-to(mobil)
+		font-size: 37.5%
+
+*
+	outline: none 
+	box-sizing: border-box
+
+textarea
+	resize: none
+
+.hidden
+	display: none
+
+body
+	margin: 0
+	min-height: 100vh
+	min-width: 300px
+	position: relative
+	font-size: 16px
+	line-height: 1.6
+	+bg(center center,auto,true)
+	font-weight: normal
+	+font('Open Sans')
+	color: black
+	cursor: default
+	overflow-x: hidden
+	text-align: center
+	&.no-scroll
+		overflow: hidden
+		height: 100%
+
+ul
+	list-style: none
+	padding-left: 0px
+
+a
+	text-decoration: none
+	+trans(.3s)
+
+
+
+h1,h2,h3,h4,h5,h6
+	margin: 0
+
+h1
+	text-transform: uppercase
+	font-size: 3.2rem
+	margin-bottom: 1.5rem
+	text-align: left
+
+
+h2
+	font-size:  6rem
+	text-align: left
+
+h3
+	font-size: 4.5rem
+	font-weight: 700
+	line-height: normal
+
+	
+		
+h4
+
+	font-size: 2rem
+	margin-bottom: 1.2rem
+	text-align: left
+
+.container
+	padding: 0 40px
+
+blockquote
+	text-align: center
+	font-size: 1.375em
+	font-style: italic
+	font-weight: 300
+
+p
+	margin: 0
+
+
+
+button, submit
+	font-size: 1.6rem
+	outline: 0
+	cursor: pointer
+	margin: 0 auto
+	padding: 1.5rem 6rem
+	display: block
+	border-radius: 10px
+	border: none
+	+trans
+
+//FORM STYLE
+
+input[type="submit"]
+
+input[type="text"],textarea
+
+*::-webkit-input-placeholder
+	text-align: left
+
+	opacity: 1
+
+*:-moz-placeholder
+	text-align: left
+
+	opacity: 1
+
+*::-moz-placeholder
+	text-align: left	
+
+	opacity: 1
+
+*:-ms-input-placeholder
+	text-align: left
+
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	text-align: left
+
+body input:required:valid,
+body textarea:required:valid
+	text-align: left
